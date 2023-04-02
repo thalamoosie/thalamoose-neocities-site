@@ -1,0 +1,35 @@
+@import url("https://fonts.cdnfonts.com/css/nokia-cellphone-fc");
+
+body {
+  font-family: "Nokia Cellphone FC", sans-serif;
+  color: rgb(44, 44, 58);
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #585963;
+}
+
+a:link {
+  color: rgb(199, 226, 188);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(157, 187, 149);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(161, 255, 138);
+  text-decoration: none;
+}
+canvas {
+  /* box-shadow: 20px 10px 50px rgb(150, 150, 150); */
+  border: 2px solid;
+  border-color: rgb(143, 153, 58);
+}
+
+.score {
+  font-size: 30px;
+}
